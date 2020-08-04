@@ -77,3 +77,6 @@ images[0].addEventListener('drop', () => {
 
 //// STRETCH ////
 gsap.to(logo, {duration: 1, x: 300, backgroundColor: "#FFD23F"});
+
+const welcome = document.querySelector('.welcome');
+gsap.to(welcome, { duration: 1, x:300 });
